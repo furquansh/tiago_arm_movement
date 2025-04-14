@@ -3,7 +3,7 @@
 
 ## Writing the c++ node
 
-I Have include the c++ script. After building the below repository, put this is the this c++ file in the ~/tiago_simulation/tiago_gazebo/scripts
+## I Have included the c++ script. After building the below repository . Put this  c++ file in the ~/tiago_simulation/tiago_gazebo/scripts
 
 Modify the CmakeLists and package xml accordingly 
 
@@ -54,7 +54,7 @@ Launch gazebo simulation:
 
 ```console
 ros2 launch tiago_gazebo tiago_gazebo.launch.py is_public_sim:=True
-Now run the c++ node
+ros2 run tiago_gazebo tiago_arm_trajectory_node
 
 ```
 
